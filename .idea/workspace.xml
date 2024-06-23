@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ed20f86-7401-40cb-a70d-e0d5d05037f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.formatter.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rebar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tethys.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tethys/application.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tethys/flow.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tethys/flows/dispersed_flow.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tethys/pool.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tethys/pools/still_pool.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tethys/spring.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tethys/springs/udp_spring.ex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mix.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_helper.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tethys/flows/dispersed_flow_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tethys/pools/still_pool_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tethys/springs/udp_spring_test.exs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tethys_test.exs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="6ao071vp" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2iIJEJL7NXbpJ1461pSSpJ9kmQX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Elixir Mix ExUnit.Mix ExUnit test/tethys/flows/dispersed_flow_test.exs.executor": "Run",
+    "Elixir Mix ExUnit.Mix ExUnit test/tethys/flows/dispersed_flow_test.exs:10.executor": "Run",
+    "Elixir Mix ExUnit.Mix ExUnit test/tethys/flows/dispersed_flow_test.exs:6.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Erlang External Tools",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/tethys/springs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Elixir Mix ExUnit.Mix ExUnit test/tethys/flows/dispersed_flow_test.exs:10">
+    <configuration name="Mix ExUnit test/tethys/flows/dispersed_flow_test.exs" type="MixExUnitRunConfigurationType" factoryName="Elixir Mix ExUnit" temporary="true">
+      <mix-test>
+        <argument>test/tethys/flows/dispersed_flow_test.exs</argument>
+      </mix-test>
+      <working-directory url="file://$PROJECT_DIR$" />
+      <module-filters inherit-application-module-filters="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Mix ExUnit test/tethys/flows/dispersed_flow_test.exs:10" type="MixExUnitRunConfigurationType" factoryName="Elixir Mix ExUnit" temporary="true">
+      <mix-test>
+        <argument>test/tethys/flows/dispersed_flow_test.exs:10</argument>
+      </mix-test>
+      <working-directory url="file://$PROJECT_DIR$" />
+      <module-filters inherit-application-module-filters="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Mix ExUnit test/tethys/flows/dispersed_flow_test.exs:6" type="MixExUnitRunConfigurationType" factoryName="Elixir Mix ExUnit" temporary="true">
+      <mix-test>
+        <argument>test/tethys/flows/dispersed_flow_test.exs:6</argument>
+      </mix-test>
+      <working-directory url="file://$PROJECT_DIR$" />
+      <module-filters inherit-application-module-filters="true" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/tethys/flows/dispersed_flow_test.exs:10" />
+        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/tethys/flows/dispersed_flow_test.exs" />
+        <item itemvalue="Elixir Mix ExUnit.Mix ExUnit test/tethys/flows/dispersed_flow_test.exs:6" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SwiftWorkspaceSettings">
+    <option name="detectedToolchain" value="true" />
+    <option name="toolchainPathValue" value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ed20f86-7401-40cb-a70d-e0d5d05037f3" name="Changes" comment="" />
+      <created>1707542437307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707542437307</updated>
+      <workItem from="1707542438356" duration="913000" />
+      <workItem from="1719172050983" duration="8392000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
