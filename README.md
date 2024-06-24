@@ -62,6 +62,27 @@ More examples can be found in the [unit tests](test).
     assert_receive {:drip, _, "Data D"}, 50
     assert_receive {:drip, _, "Data F"}, 50
   end
+
+  test "sends (pumps) UDP messages that flow into it" do
+    pool_a = StillPool.seed!() |> Pool.leak(self())
+    pool_b = StillPool.seed!() |> Pool.leak(self())
+
+    UdpSpring.seed!(%{address: %{port: 5555}})
+    |> Spring.flow(pool_a)
+
+    UdpSpring.seed!(%{address: %{port: 6666}})
+    |> Spring.flow(pool_b)
+
+    UdpSpring.seed!(%{address: %{port: 4444}})
+    |> UdpSpring.pumps([
+      {{127, 0, 0, 1}, 5555},
+      {{127, 0, 0, 1}, 6666}
+    ])
+    |> Flow.receive("Broadcast to both")
+
+    assert_receive {:drip, ^pool_a, "Broadcast to both"}, 50
+    assert_receive {:drip, ^pool_b, "Broadcast to both"}, 50
+  end
 ```
 
 ## Installation
