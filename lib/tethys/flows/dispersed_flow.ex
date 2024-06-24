@@ -3,6 +3,10 @@ defmodule Tethys.Flows.DispersedFlow do
   alias Tethys.Flow
   defstruct [:pid]
 
+  @moduledoc """
+  Pushes data it receives equally via round-robin to all destination flows
+  """
+
   def craft(destinations \\ []) do
     {:ok, pid} = GenServer.start_link(__MODULE__, destinations)
     {:ok, %__MODULE__{pid: pid}}

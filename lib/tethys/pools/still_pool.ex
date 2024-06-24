@@ -2,6 +2,10 @@ defmodule Tethys.Pools.StillPool do
   use GenServer
   defstruct [:pid]
 
+  @moduledoc """
+  Stores data that flows into it, in an ever-growing array. Does not modify the data.
+  """
+
   def seed(contents \\ []) do
     {:ok, pid} = GenServer.start_link(__MODULE__, contents)
     {:ok, %__MODULE__{pid: pid}}

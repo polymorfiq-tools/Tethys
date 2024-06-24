@@ -3,6 +3,10 @@ defmodule Tethys.Springs.UdpSpring do
   defstruct [:pid]
   alias Tethys.Flow
 
+  @moduledoc """
+  Represents flows of data to/from a UDP Socket
+  """
+
   def seed(%{address: %{port: port}}) do
     {:ok, pid} = GenServer.start_link(__MODULE__, port)
     {:ok, %__MODULE__{pid: pid}}
@@ -18,6 +22,11 @@ defmodule Tethys.Springs.UdpSpring do
     {:ok, %{socket: socket, flow: nil, pumps: []}}
   end
 
+  def pumps(%{pid: pid} = spring, pumps) do
+    GenServer.cast(pid, {:pumps, pumps})
+    spring
+  end
+
   def handle_cast({:flow, flow}, state) do
     {:noreply, %{state | flow: flow}}
   end
@@ -28,7 +37,9 @@ defmodule Tethys.Springs.UdpSpring do
 
   def handle_cast({:pump, data}, state) do
     state.pumps
-    |> Enum.each(& Flow.receive(&1, data))
+    |> Enum.each(fn {address, port} ->
+      :gen_udp.send(state.socket, address, port, data)
+    end)
 
     {:noreply, state}
   end
