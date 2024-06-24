@@ -1,6 +1,8 @@
 # Tethys
 
-**TODO: Add description**
+> Tethys was the Titan goddess of the primal font of fresh water which nourishes the earth... feeding her children's springs with the waters of Okeanos drawn through subterranean acquifers.
+
+A networking library that guides and crafts the streams of information flowing through the modern world. Aiding the technological waters drawn from lakes, rivers, and rains as they move towards the world's oceans.
 
 ## Installation
 
