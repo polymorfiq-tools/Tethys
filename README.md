@@ -1,8 +1,8 @@
 # Tethys
-[![Hex.pm](https://img.shields.io/hexpm/v/tethys.svg)]()
-[![Hex.pm](https://img.shields.io/hexpm/dt/tethys.svg)]()
-[![Hex.pm](https://img.shields.io/hexpm/dw/tethys.svg)]()
-[![Hex.pm](https://img.shields.io/hexpm/dd/tethys.svg)]()
+[![Hex.pm](https://img.shields.io/hexpm/v/tethys.svg)](https://hex.pm/packages/tethys)
+[![Hex.pm](https://img.shields.io/hexpm/dt/tethys.svg)](https://hex.pm/packages/tethys)
+[![Hex.pm](https://img.shields.io/hexpm/dw/tethys.svg)](https://hex.pm/packages/tethys)
+[![Hex.pm](https://img.shields.io/hexpm/dd/tethys.svg)](https://hex.pm/packages/tethys)
 
 > Tethys was the Titan goddess of the primal font of fresh water which nourishes the earth... feeding her children's springs with the waters of Okeanos drawn through subterranean acquifers.
 
