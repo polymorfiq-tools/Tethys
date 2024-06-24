@@ -20,7 +20,7 @@ A networking library that guides and crafts the streams of information flowing t
 
 [Flows](lib/tethys/flow.ex) are entities through which data may move. For example, a [Dispersed Flow](lib/tethys/flows/dispersed_flow.ex) can act as a round-robin load balancer between multiple flows.
 
-- A flow may **receive** data
+- A Flow may **receive** data
 
 ### Springs
 
