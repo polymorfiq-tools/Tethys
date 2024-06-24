@@ -7,5 +7,6 @@
   "file_system": {:hex, :file_system, "1.0.0", "b689cc7dcee665f774de94b5a832e578bd7963c8e637ef940cd44327db7de2cd", [:mix], [], "hexpm", "6752092d66aec5a10e662aefeed8ddb9531d79db0bc145bb8c40325ca1d8536d"},
   "git_hooks": {:hex, :git_hooks, "0.7.3", "09489e94d88dfc767662e22aff2b6208bd7cf555a19dd0e1477cca4683ce0701", [:mix], [{:blankable, "~> 1.0.0", [hex: :blankable, repo: "hexpm", optional: false]}, {:recase, "~> 0.7.0", [hex: :recase, repo: "hexpm", optional: false]}], "hexpm", "d6ddedeb4d3a8602bc3f84e087a38f6150a86d9e790628ed8bc70e6d90681659"},
   "jason": {:hex, :jason, "1.4.1", "af1504e35f629ddcdd6addb3513c3853991f694921b1b9368b0bd32beb9f1b63", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "fbb01ecdfd565b56261302f7e1fcc27c4fb8f32d56eab74db621fc154604a7a1"},
+  "msgpax": {:hex, :msgpax, "2.4.0", "4647575c87cb0c43b93266438242c21f71f196cafa268f45f91498541148c15d", [:mix], [{:plug, "~> 1.0", [hex: :plug, repo: "hexpm", optional: true]}], "hexpm", "ca933891b0e7075701a17507c61642bf6e0407bb244040d5d0a58597a06369d2"},
   "recase": {:hex, :recase, "0.7.0", "3f2f719f0886c7a3b7fe469058ec539cb7bbe0023604ae3bce920e186305e5ae", [:mix], [], "hexpm", "36f5756a9f552f4a94b54a695870e32f4e72d5fad9c25e61bc4a3151c08a4e0c"},
 }

@@ -1,4 +1,4 @@
-defmodule Tethys.Flow.UdpSpringTest do
+defmodule Tethys.Springs.UdpSpringTest do
   use ExUnit.Case
   alias Tethys.{Flow, Pool, Spring, Springs.UdpSpring, Pools.StillPool}
   doctest UdpSpring

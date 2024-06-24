@@ -14,6 +14,13 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/git_hooks" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/jason" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/recase" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/bunt" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/credo" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/dialyxir" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/erlex" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/file_system" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/jason" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/msgpax" />
       <excludeFolder url="file://$MODULE_DIR$/deps" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -30,5 +37,7 @@
     <orderEntry type="library" name="file_system" level="project" />
     <orderEntry type="library" name="bunt" level="project" />
     <orderEntry type="library" name="jason" level="project" />
+    <orderEntry type="library" name="msgpax" level="project" />
+    <orderEntry type="library" name="plug" level="project" />
   </component>
 </module>
