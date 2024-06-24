@@ -1,4 +1,8 @@
 # Tethys
+[![Hex.pm](https://img.shields.io/hexpm/v/tethys.svg)]()
+[![Hex.pm](https://img.shields.io/hexpm/dt/tethys.svg)]()
+[![Hex.pm](https://img.shields.io/hexpm/dw/tethys.svg)]()
+[![Hex.pm](https://img.shields.io/hexpm/dd/tethys.svg)]()
 
 > Tethys was the Titan goddess of the primal font of fresh water which nourishes the earth... feeding her children's springs with the waters of Okeanos drawn through subterranean acquifers.
 
@@ -30,7 +34,7 @@ A networking library that guides and crafts the streams of information flowing t
 
 ### Locks
 
-[Locks](lib/tethys/lock.ex) are bi-directional Flows, where the direction you are moving applies different transforms to the data. For example, a [MsgPackLock](lib/tethys/locks/msg_pack_lock.ex), when moving one way will pack data moving through it via MessagePack. The other direction will unpack the data.
+[Locks](lib/tethys/lock.ex) are bi-directional Flows, where the direction you are moving applies different transforms to the data. For example, a [MsgPackLock](https://github.com/polymorfiq-tools/tethys_msgpack), when moving one way will pack data moving through it via MessagePack. The other direction will unpack the data.
 
 - A Lock has an **entrance** through which a transform may be made
 - A Lock has an **exit** through which a different (likely inverse) transform may be made
