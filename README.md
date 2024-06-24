@@ -35,6 +35,35 @@ A networking library that guides and crafts the streams of information flowing t
 - A Lock has an **entrance** through which a transform may be made
 - A Lock has an **exit** through which a different (likely inverse) transform may be made
 
+## Usage Examples
+
+More examples can be found in the [unit tests](test).
+
+```elixir
+  test "round-robins data evenly across destinations" do
+    pool_a = StillPool.seed!()
+    pool_b = StillPool.seed!()
+
+    DispersedFlow.craft!([pool_a, pool_b])
+    |> Flow.receive("Data A")
+    |> Flow.receive("Data B")
+    |> Flow.receive("Data C")
+    |> Flow.receive("Data D")
+    |> Flow.receive("Data E")
+    |> Flow.receive("Data F")
+
+    pool_a |> Pool.drain(self())
+    assert_receive {:drip, _, "Data A"}, 50
+    assert_receive {:drip, _, "Data C"}, 50
+    assert_receive {:drip, _, "Data E"}, 50
+
+    pool_b |> Pool.drain(self())
+    assert_receive {:drip, _, "Data B"}, 50
+    assert_receive {:drip, _, "Data D"}, 50
+    assert_receive {:drip, _, "Data F"}, 50
+  end
+```
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
